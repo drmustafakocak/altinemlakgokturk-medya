@@ -1,0 +1,159 @@
+{
+  "yayin_tarihi": "2026-11-21",
+  "konu": "Tapuda Güvenli Ödeme Sistemi 1 Aralık'ta zorunlu oluyor",
+  "kategori": "Hukuki",
+  "format": "carousel",
+  "etiket": "TAPUDA YENİ DÖNEM",
+  "seri": "BİLGİ NOTU",
+  "sayfalar": [
+    {
+      "tip": "kapak",
+      "ust": "Tapuda ödeme",
+      "ust2": "sisteme geçiyor",
+      "buyuk": [
+        "1 Aralık"
+      ],
+      "alt": "Güvenli Ödeme Sistemi zorunlu oluyor",
+      "aciklama": "Göktürk ve Kemerburgaz'da ev, arsa ya da iş yeri alıp satmayı planlayanlar için 6 kısa bilgi."
+    },
+    {
+      "tip": "madde",
+      "no": "01",
+      "baslik": "Para ve tapu aynı anda el değiştirecek",
+      "vurgu": "Ne değişiyor?",
+      "metin": "Satış bedelinin tamamı ya da bir kısmı nakit, havale veya EFT ile ödeniyorsa ödeme Ticaret Bakanlığı'nın **Güvenli Ödeme Sistemi** üzerinden yapılacak.",
+      "not": "Amaç, mülkiyet devri ile bedelin eş zamanlı el değiştirmesi.",
+      "grafik": {
+        "tip": "akis",
+        "adimlar": [
+          "Alıcı öder",
+          "Sistemde bekler",
+          "Tapu devriyle satıcıya geçer"
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "02",
+      "baslik": "Zorunlu başlangıç: 1 Aralık 2026",
+      "vurgu": "Ne zaman?",
+      "metin": "Tarih, 1 Ekim 2026 tarihli Resmî Gazete'deki yönetmelik değişikliğiyle **1 Aralık 2026** olarak belirlendi.",
+      "not": "Yönetmelik Bakanlığa bu tarihi üç aya kadar uzatma yetkisi veriyor. Aralık'ta tapu randevusu olanlar güncel duyuruları takip etmeli.",
+      "grafik": {
+        "tip": "takvim",
+        "gun": "1",
+        "ay": "ARALIK",
+        "yil": "2026",
+        "cizgi": [
+          [
+            "1 Tem 2026",
+            "İlk takvim",
+            false
+          ],
+          [
+            "1 Eki 2026",
+            "Ertelendi",
+            false
+          ],
+          [
+            "1 Ara 2026",
+            "Zorunlu başlangıç",
+            true
+          ]
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "03",
+      "baslik": "Bireysel satışlar da kapsamda",
+      "vurgu": "Kimleri kapsıyor?",
+      "metin": "Kural yalnızca emlak işletmelerini değil, **diğer gerçek ve tüzel kişilerin** taşınmaz satışlarını da kapsıyor.",
+      "not": "Sistem dışında tutulacak satışlar, Bakanlıkların imzalayacağı protokolle belirlenecek.",
+      "grafik": {
+        "tip": "liste",
+        "maddeler": [
+          "Konut",
+          "Arsa",
+          "İş yeri"
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "04",
+      "baslik": "Kredili alımda peşinat sistemden geçer",
+      "vurgu": "Konut kredisi kullanıyorsanız",
+      "metin": "Banka veya finansman şirketinin kullandırdığı **kredi tutarı** sistemin dışında kalıyor. Kredi dışındaki ödemeler için sistem kullanılıyor.",
+      "not": "Örneğin peşinat ve kendi birikiminizden ödediğiniz kısım.",
+      "grafik": {
+        "tip": "oran",
+        "parcalar": [
+          [
+            "Kredi tutarı",
+            "Sistem dışı",
+            0.6
+          ],
+          [
+            "Kredi dışı ödemeler",
+            "Sistemden",
+            0.4
+          ]
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "05",
+      "baslik": "Kullanım bedeli satıcıya yansıyacak",
+      "vurgu": "Ücreti var mı?",
+      "metin": "Sistemden yapılan her işlemde bir kullanım bedeli alınacak ve bu bedel **satıcıya aktarılan tutardan düşülecek.**",
+      "not": "Bedelin tutarı ve paylaşım usulü henüz açıklanmadı; protokolle belirlenecek.",
+      "grafik": {
+        "tip": "buyuk",
+        "metin": "?",
+        "etiket": "Tutar henüz açıklanmadı"
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "06",
+      "baslik": "Satışınızı önceden planlayın",
+      "vurgu": "Ne yapmalısınız?",
+      "metin": "",
+      "grafik": {
+        "tip": "kontrol",
+        "maddeler": [
+          [
+            "Ödeme planını erkenden konuşun",
+            "Peşinat, kredi ve kalan bedel hangi kanaldan ödenecek?"
+          ],
+          [
+            "Elden yüklü nakit taşımayın",
+            "Sistem bu riski azaltmak için kuruluyor."
+          ],
+          [
+            "Tarihi işlem öncesi teyit edin",
+            "Pilot uygulama ve istisnalar henüz netleşmedi."
+          ]
+        ]
+      }
+    },
+    {
+      "tip": "son",
+      "baslik": [
+        "Alım-satım sürecinizi",
+        "birlikte planlayalım."
+      ],
+      "metin": "Ödeme planından tapu randevusuna kadar her adımda yanınızdayız.",
+      "kaynak": "Kaynak: Taşınmaz Ticareti Hakkında Yönetmelik ve değişiklikleri (RG 29.04.2026/33238; 01.10.2026/33387). Bilgilendirme amaçlıdır, hukuki danışmanlık yerine geçmez."
+    }
+  ],
+  "aciklama": "1 Aralık'tan itibaren tapuda ödeme alışkanlıkları değişiyor. 🏠\n\nTaşınmaz satışlarında bedel nakit, havale ya da EFT ile ödeniyorsa ödeme artık Ticaret Bakanlığı'nın Güvenli Ödeme Sistemi üzerinden yapılacak. Amaç; para ile tapunun aynı anda el değiştirmesi, dolandırıcılık ve sahtecilik riskinin azaltılması.\n\nBilmeniz gerekenler:\n• Zorunlu başlangıç tarihi 1 Aralık 2026 (Bakanlık bu tarihi 3 aya kadar uzatabilir)\n• Bireysel satışlar da kapsamda\n• Kredili alımlarda kredi tutarı sistem dışında, peşinat sistemden\n• Her işlemde kullanım bedeli alınacak ve satıcıya aktarılan tutardan düşülecek; tutar henüz açıklanmadı\n\nAralık ayında tapu işlemi planlıyorsanız ödeme planınızı şimdiden birlikte konuşalım.\n\n📞 0532 464 75 19\n🌐 altinemlakgokturk.com\n\nKaynak: Taşınmaz Ticareti Hakkında Yönetmelik ve değişiklikleri (RG 29.04.2026/33238; 01.10.2026/33387). Bu paylaşım bilgilendirme amaçlıdır; hukuki danışmanlık yerine geçmez.\n\n#tapu #güvenliödemesistemi #gayrimenkul #göktürk #kemerburgaz #eyüpsultan #evalırken #altinemlakgokturk #altınemlak",
+  "kaynaklar": [
+    "https://www.iltanekmekcioglu.com/tapuda-guvenli-odeme-sistemi-ne-zaman-baslayacak/",
+    "https://www.foreks.com/haber/detay/6abdc4db95016b5817e631d1/PICNEWS/tr/tasinmaz-satislarinda-guvenli-odeme-sistemi-icin-yeni-duzenleme-01-10-26/",
+    "https://www.sozcu.com.tr/tapu-sahipleri-icin-yeni-karar-1-aralik-tan-itibaren-zorunlu-olacak-p364087",
+    "https://www.ekonomist.com.tr/emlak/tasinmaz-satislarinda-yeni-uygulama-guvenli-odeme-sistemi-icin-entegrator-yetkilendirilecek-79386"
+  ]
+}
