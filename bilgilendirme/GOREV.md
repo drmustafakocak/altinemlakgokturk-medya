@@ -1,5 +1,7 @@
 # Cumartesi Bilgilendirme Serisi — görev talimatı (Altın Emlak Göktürk)
 
+> **HESAP KİLİDİ (zorunlu):** Composio'da birden fazla Instagram hesabı bağlı ve varsayılan hesap altinemlakgokturk DEĞİL. Her Instagram aracını `account: "instagram_shlu-ekron"` (alias altinemlakgokturk) ile çağır. Yayından önce aynı account ile `INSTAGRAM_GET_USER_INFO` ("me") çalıştır; username `altinemlakgokturk` ve id `28885078894525477` değilse YAYINLAMA, dur ve kullanıcıya bildir. API çağrılarında ig_user_id = `28885078894525477` (17841479910444886 eski/yanlış kimliktir, kullanma).
+
 Bu dosya üç zamanlanmış görevin (Perşembe / Cuma / Cumartesi) ortak talimatıdır. Kullanıcı Dr. Mustafa Koçak; onunla Türkçe konuş. Kalıcı bir istek gelirse bu dosyayı güncelle.
 
 ## Amaç

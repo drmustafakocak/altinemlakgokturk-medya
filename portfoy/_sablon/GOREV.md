@@ -1,5 +1,7 @@
 # Haftalık Portföy Bülteni — görev talimatı (Altın Emlak Göktürk)
 
+> **HESAP KİLİDİ (zorunlu):** Composio'da birden fazla Instagram hesabı bağlı ve varsayılan hesap altinemlakgokturk DEĞİL. Her Instagram aracını `account: "instagram_shlu-ekron"` (alias altinemlakgokturk) ile çağır. Yayından önce aynı account ile `INSTAGRAM_GET_USER_INFO` ("me") çalıştır; username `altinemlakgokturk` ve id `28885078894525477` değilse YAYINLAMA, dur ve kullanıcıya bildir. API çağrılarında ig_user_id = `28885078894525477` (17841479910444886 eski/yanlış kimliktir, kullanma).
+
 Bu dosya, her pazartesi çalışan iki zamanlanmış görevin ortak talimatıdır. Kullanıcı Dr. Mustafa Koçak'tır; onunla Türkçe konuş. Talimatı değiştirmek için bu dosyayı güncelle (görev metinleri kısa tutuldu).
 
 ## Amaç
@@ -9,7 +11,7 @@ altinemlakgokturk.com'daki güncel ilanlardan bülteni yeniden üret, kullanıc�
 - GitHub deposu (public, kanonik kayıt): `drmustafakocak/altinemlakgokturk-medya`. Şablon ve durum dosyaları: `portfoy/_sablon/` (portfoy_bulten.py, site_tara.py, bulut_uret.py, portfoy_veri.json, onceki_bulten.json, kurallar.json, fonts/, logo/, danisman/, foto/).
 - Haftalık durum işareti: `portfoy/_durum/<YYYY-MM-DD>.json` → `{"mod": "bilgisayar"|"bulut", "durum": "hazirlaniyor"|"onay_bekliyor"|"yayinlandi", "saat": "..."}`.
 - Bilgisayardaki klasör (yalnızca bilgisayar modunda): "/Users/mustafkocak/Documents/CLAUDE/Altın Emlak Göktürk" → device_bash'te `cd "$HOME/mnt"/*/` (ad NFD). Bülten kökü `05_PORTFOY_BULTENI/`, arşiv şablonu `05_PORTFOY_BULTENI/_sablon/`.
-- Instagram: Composio, hesap alias `altinemlakgokturk`, ig_user_id `17841479910444886`.
+- Instagram: Composio, hesap alias `altinemlakgokturk`, ig_user_id `28885078894525477`.
 - Ofis telefonu 0532 464 75 19, mail gokturk@altinemlak.com.tr, site altinemlakgokturk.com (script içinde sabit).
 
 ## Kalıcı kurallar

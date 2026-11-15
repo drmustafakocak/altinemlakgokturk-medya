@@ -1,5 +1,7 @@
 # Haftanın Yorumu — görev talimatı (bulut)
 
+> **HESAP KİLİDİ (zorunlu):** Composio'da birden fazla Instagram hesabı bağlı ve varsayılan hesap altinemlakgokturk DEĞİL. Her Instagram aracını `account: "instagram_shlu-ekron"` (alias altinemlakgokturk) ile çağır. Yayından önce aynı account ile `INSTAGRAM_GET_USER_INFO` ("me") çalıştır; username `altinemlakgokturk` ve id `28885078894525477` değilse YAYINLAMA, dur ve kullanıcıya bildir. API çağrılarında ig_user_id = `28885078894525477` (17841479910444886 eski/yanlış kimliktir, kullanma).
+
 Bu görev bulutta çalışır; MacBook'un açık olması GEREKMEZ. Tek kaynak bu depodur:
 `drmustafakocak/altinemlakgokturk-medya/yorum/`. Kullanıcıyla (Dr. Mustafa Koçak) Türkçe konuş; onayı telefondan verir.
 
