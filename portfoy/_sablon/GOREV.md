@@ -19,7 +19,7 @@ altinemlakgokturk.com'daki güncel ilanlardan bülteni yeniden üret, kullanıc�
 - "Göktürk ve çevresi" ifadesi hiçbir yerde kullanılmaz.
 - SEÇİM (script yapar): önce Instagram'da hiç paylaşılmamış ilanlar (onceki_bulten.json `paylasilanlar` dışındakiler); 8'den azsa önceden paylaşılanlardan rastgele 8'e tamamlanır; 8'i aşanlar sonraki haftalara kalır. Carousel asla ikiye bölünmez.
 - SIRA: önce `yeni: true` (onceki_bulten.json `son_bulten_nolar` içinde olmayan ilan; sayfada "YENİ" etiketi), sonra portföy no büyükten küçüğe.
-- kurallar.json: `haric_tutulan` bültene girmez; `danisman_duzeltme` sitedeki danışmanın yerine geçer. Kullanıcı yeni kalıcı istek verirse bu dosyayı güncelle.
+- kurallar.json: `haric_tutulan` bültene girmez; `danisman_duzeltme` sitedeki danışmanın yerine geçer; `alan_duzeltme` (no → alan:değer) sitedeki ilgili alanların (mahalle, net vb.) yerine geçer, portfoy_veri.json yazılırken uygulanır. Kullanıcı yeni kalıcı istek verirse bu dosyayı güncelle.
 - Her portföy sayfasında danışman adı + unvanı. Mustafa Koçak → "Dr. Mustafa Koçak / İnşaat Yük. Mühendisi / Broker"; Ahmet Koçak → Broker; diğerleri Gayrimenkul Danışmanı (script yapar). Danışman sitede boşsa (ör. `/tr/danisman/-NNNNN`) ve kurallar.json'da yoksa TAHMİN ETME, onay mesajında sor. `danisman/` klasöründe fotoğrafı yoksa yine sor (Ufuk Bozkurt ofis tasarımlarında kullanılmaz).
 - Açıklamada ilan linki "Portföy No" satırının hemen altında (yasal zorunluluk; script yapar). Açıklama ≤ 2100 karakter (script kontrol eder).
 - EİDS logosu alt bantta Göktürk logosunun hemen sağında; zemine göre siyah/beyaz (script yapar).
