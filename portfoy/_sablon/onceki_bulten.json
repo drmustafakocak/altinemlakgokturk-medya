@@ -1,14 +1,26 @@
 {
  "aciklama": "son_bulten_nolar: son bültene giren ilanlar ('yeni' etiketi bu listede olmayan, sitede yeni görülen ilanlara verilir). paylasilanlar: Instagram'da en az bir kez PAYLAŞILMIŞ tüm portföy no'ları (birikimli); seçimde hiç paylaşılmamışlar önceliklidir. Her yayından sonra güncellenir.",
- "yayin_tarihi": null,
+ "yayin_tarihi": "2026-11-16",
  "son_bulten_nolar": [
   485811,
   485695,
   484984,
   484595,
   484036,
-  480448,
-  467387
+  467387,
+  487274,
+  478007,
+  487107
  ],
- "paylasilanlar": []
+ "paylasilanlar": [
+  487274,
+  487107,
+  485811,
+  485695,
+  484984,
+  484595,
+  484036,
+  478007,
+  467387
+ ]
 }
