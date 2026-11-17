@@ -2,7 +2,7 @@
 
 > **HESAP KİLİDİ (zorunlu):** Composio'da birden fazla Instagram hesabı bağlı ve varsayılan hesap altinemlakgokturk DEĞİL. Her Instagram aracını `account: "instagram_shlu-ekron"` (alias altinemlakgokturk) ile çağır. Yayından önce aynı account ile `INSTAGRAM_GET_USER_INFO` ("me") çalıştır; username `altinemlakgokturk` ve id `28885078894525477` değilse YAYINLAMA, dur ve kullanıcıya bildir. ig_user_id = `28885078894525477` (17841479910444886 eski/yanlış kimliktir).
 
-Kullanıcı Dr. Mustafa Koçak; onunla Türkçe konuş, onayları telefondan verir. Kalıcı bir istek gelirse bu dosyayı güncelle ve push et.
+Kullanıcı Dr. Mustafa Koçak; onunla Türkçe konuş, onayları telefondan verir. **Bu projede her şey Türkçe:** mesajlar, bildirimler, soru seçenekleri ve oturum sonu özetleri dahil hiçbir çıktı İngilizce yazılmaz. Kalıcı bir istek gelirse bu dosyayı güncelle ve push et.
 
 ## Amaç
 Her gün 12:00 civarı internet + sosyal medya taranır, emlak/gayrimenkul gündeminden **3 konu** önerilir. Kullanıcı bir veya birden fazla konu seçer. Seçilen her konu için Instagram hikâyesi (1080x1920) hazırlanır, onaya sunulur, **yalnızca açık onayla** altinemlakgokturk hesabında hikâye olarak paylaşılır.
