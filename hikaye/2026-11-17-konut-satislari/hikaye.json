@@ -1,0 +1,9 @@
+{"kareler":[{
+ "etiket":"PİYASA NOTU",
+ "tarih":"17 KASIM 2026",
+ "baslik":[{"metin":"Ekimde konut","renk":"sari","boyut":"xl"},{"metin":"satışları","renk":"beyaz"},{"metin":"%23,3 geriledi","renk":"beyaz"}],
+ "ozet":"TÜİK verilerine göre Ekim 2026'da Türkiye genelinde **131.072** konut satıldı; geçen yılın aynı ayına göre **%23,3** düşüş.",
+ "maddeler":["İlk el: 50.105 konut (%13,1 düşüş)","İkinci el: 80.967 konut (%28,5 düşüş)","İpotekli satış: 23.286 konut (%5,7 düşüş)"],
+ "slogan":"Durgun piyasada doğru fiyat ve doğru alıcı daha da önemli.",
+ "kaynak":"Kaynak: TÜİK Konut ve İş Yeri Satış İstatistikleri, Ekim 2026 · Bilgilendirme amaçlıdır."
+}]}
