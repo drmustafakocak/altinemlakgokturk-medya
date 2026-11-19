@@ -1,0 +1,61 @@
+{
+ "kareler": [
+  {
+   "etiket": "SEKTÖR DUYURUSU",
+   "tarih": "18 KASIM 2026",
+   "baslik": [
+    {
+     "metin": "Yabancıya",
+     "renk": "sari",
+     "boyut": "xl"
+    },
+    {
+     "metin": "yatırımla ikamet:",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "yeni kurallar",
+     "renk": "beyaz"
+    }
+   ],
+   "ozet": "Resmî Gazete'de yayımlanan kararla yabancı yatırımcılara yeni bir ikamet izni yolu açıldı.",
+   "maddeler": [
+    "**150 bin $** ile 3 yıl, **200 bin $** ile 5 yıl izin",
+    "Mevduat, devlet borçlanma aracı, GYF/GSYF payı veya BES",
+    "Yatırım, izin süresinin yarısı boyunca tutulmalı",
+    "Doğrudan konut alımı bu kararın kapsamında değil"
+   ],
+   "slogan": "Yabancı alıcılar için doğru yolu birlikte değerlendirelim.",
+   "kaynak": "Kaynak: Resmî Gazete 18.11.2026, CB Kararı 11994 · Bilgilendirme amaçlıdır."
+  },
+  {
+   "etiket": "SECTOR UPDATE",
+   "tarih": "18 NOVEMBER 2026",
+   "baslik": [
+    {
+     "metin": "Residency",
+     "renk": "sari",
+     "boyut": "xl"
+    },
+    {
+     "metin": "by investment:",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "new rules",
+     "renk": "beyaz"
+    }
+   ],
+   "ozet": "A decision in Türkiye's Official Gazette opens a new residence permit route for foreign investors.",
+   "maddeler": [
+    "**$150K** for 3 years, **$200K** for 5 years",
+    "Bank deposits, government bonds, real estate or venture capital funds, private pension",
+    "Investment must be held for half the permit period",
+    "Buying a home is not covered by this decision"
+   ],
+   "slogan": "Let's find the right path for you in Türkiye.",
+   "cta": "Contact us: +90 532 464 75 19",
+   "kaynak": "Source: Official Gazette 18.11.2026, Decision No. 11994 · For information only."
+  }
+ ]
+}
