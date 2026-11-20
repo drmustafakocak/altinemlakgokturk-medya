@@ -1,0 +1,4 @@
+BDDK Kararı 19.11.2026, Sayı 11604
+https://www.bddk.gov.tr/Mevzuat/DokumanGetir/1352
+Konu: Tek konutu olan alıcılarda ikinci konut kredisinde %75 azaltımın kaldırılması
+Örnek: 5 milyon TL, C sınıfı -> %80 = 4 milyon TL (eski: %80 x %25 = 1 milyon TL)

@@ -1,0 +1,59 @@
+{
+ "kareler": [
+  {
+   "etiket": "SEKTÖR DUYURUSU",
+   "tarih": "19 KASIM 2026",
+   "baslik": [
+    {
+     "metin": "İkinci konutta",
+     "renk": "sari",
+     "boyut": "xl"
+    },
+    {
+     "metin": "kredi sınırı",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "genişledi",
+     "renk": "beyaz"
+    }
+   ],
+   "ozet": "BDDK, **tek konutu olan** alıcılara uygulanan %75'lik kredi azaltımını kaldırdı.",
+   "maddeler": [
+    "Tek konutu olana standart limit",
+    "2+ konutu olanda %75 azaltım sürer",
+    "Eş ve 18 yaş altı çocukların konutları da sayılır",
+    "%50 ve altı hisse ile riskli yapı, koşullu olarak sayılmaz"
+   ],
+   "slogan": "Evini satmadan yeni konut almak isteyenler için.",
+   "kaynak": "Kaynak: BDDK Kararı 19.11.2026, Sayı 11604 · Bilgilendirme amaçlıdır."
+  },
+  {
+   "etiket": "ÖRNEK HESAP",
+   "tarih": "5 MİLYON TL · C SINIFI",
+   "baslik": [
+    {
+     "metin": "Kredi limiti",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "1 milyon TL'den",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "4 milyon TL'ye",
+     "renk": "sari",
+     "boyut": "xl"
+    }
+   ],
+   "ozet": "Ekspertiz değeri **5 milyon TL,** enerji sınıfı **C** olan konut; alıcının mevcut **tek** konutu var.",
+   "maddeler": [
+    "Yeni kural: değerin %80'i = 4 milyon TL",
+    "Eski kural (%75 azaltımlı): 1 milyon TL",
+    "Kesin tutarı bankanın kredi değerlendirmesi belirler"
+   ],
+   "slogan": "Alım öncesi bankanızdan kredi ön onayı alın.",
+   "kaynak": "Kaynak: BDDK Kararı 11604 · Örnek hesaptır, bilgilendirme amaçlıdır."
+  }
+ ]
+}
