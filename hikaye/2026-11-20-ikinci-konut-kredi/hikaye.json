@@ -54,6 +54,69 @@
    ],
    "slogan": "Alım öncesi bankanızdan kredi ön onayı alın.",
    "kaynak": "Kaynak: BDDK Kararı 11604 · Örnek hesaptır, bilgilendirme amaçlıdır."
+  },
+  {
+   "etiket": "KREDİ ORANLARI",
+   "baslik": [
+    {
+     "metin": "Konut değerine",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "göre azami",
+     "renk": "beyaz"
+    },
+    {
+     "metin": "kredi oranı",
+     "renk": "sari",
+     "boyut": "xl"
+    }
+   ],
+   "ozet": "Ekspertiz değeri ve **enerji sınıfına** göre konut bedelinin en fazla ne kadarı krediyle karşılanabilir?",
+   "tablo": {
+    "basliklar": [
+     "Konut değeri",
+     "A-B",
+     "C",
+     "Diğer"
+    ],
+    "satirlar": [
+     [
+      "5 milyon TL'ye kadar",
+      "%90",
+      "%80",
+      "%70"
+     ],
+     [
+      "5–7 milyon TL",
+      "%80",
+      "%70",
+      "%60"
+     ],
+     [
+      "7–10 milyon TL",
+      "%70",
+      "%60",
+      "%50"
+     ],
+     [
+      "10–20 milyon TL",
+      "%50",
+      "%40",
+      "%30"
+     ],
+     [
+      "20 milyon TL üstü",
+      "%40",
+      "%30",
+      "%20"
+     ]
+    ],
+    "vurgu_sutun": 1,
+    "not": "Tek konutu olana bu oranlar uygulanır; **2 ve daha fazla** konutu olanda oranlar %75 azaltılır."
+   },
+   "slogan": "Bütçenizi planlarken enerji sınıfını da sorun.",
+   "kaynak": "Kaynak: BDDK Kararları 11364 ve 11604 · Bilgilendirme amaçlıdır."
   }
  ]
 }

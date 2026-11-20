@@ -117,6 +117,40 @@ def fit(d, text, weight, size, maxw, minsize=40):
     return F(weight, size)
 
 
+def tablo(d, t, y):
+    """t = {"basliklar": [...], "satirlar": [[...], ...], "vurgu_sutun": 1, "not": "..."}"""
+    cols = [IX1 - IX0 - 3 * 156] + [156] * 3
+    xs = [IX0]
+    for c in cols:
+        xs.append(xs[-1] + c)
+    hh, rh = 62, 72
+    d.rectangle([IX0, y, IX1, y + hh], fill=GOLD)
+    fh = F("xb", 25)
+    for j, b in enumerate(t["basliklar"]):
+        b = nfc(b)
+        tx = xs[j] + 20 if j == 0 else xs[j] + (cols[j] - d.textlength(b, font=fh)) / 2
+        d.text((tx, y + 17), b, font=fh, fill=BG)
+    y += hh
+    fl, fv = F("sb", 26), F("xb", 34)
+    vs = t.get("vurgu_sutun", 1)
+    for i, row in enumerate(t["satirlar"]):
+        if i % 2 == 0:
+            d.rectangle([IX0, y, IX1, y + rh], fill=(28, 28, 29))
+        for j, c in enumerate(row):
+            c = nfc(c)
+            if j == 0:
+                d.text((xs[0] + 20, y + 22), c, font=fl, fill=WHITE)
+            else:
+                d.text((xs[j] + (cols[j] - d.textlength(c, font=fv)) / 2, y + 16), c, font=fv,
+                       fill=GOLD if j == vs else WHITE)
+        y += rh
+    d.line([(IX0, y), (IX1, y)], fill=GOLD, width=3)
+    y += 26
+    if t.get("not"):
+        y = draw_rich(d, IX0, y, t["not"], F("r", 27), F("sb", 27), SOFT, GOLD, IX1 - IX0, 38)
+    return y + 30
+
+
 def kare(k):
     img = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(img)
@@ -166,6 +200,8 @@ def kare(k):
     y += 46
     if ozet_l:
         y = draw_rich(d, IX0, y, k["ozet"], fr, fb, SOFT, GOLD, IX1 - IX0, 44) + 22
+    if k.get("tablo"):
+        y = tablo(d, k["tablo"], y)
     for i, lines in enumerate(md, 1):
         cy = y + (len(lines) * 37) // 2 - 2
         d.ellipse([IX0, cy - 28, IX0 + 56, cy + 28], fill=GOLD)
