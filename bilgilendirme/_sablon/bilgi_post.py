@@ -244,6 +244,43 @@ def grafik(img, d, g, y, ymax):
         d.text((M + r, y + r), g["metin"], font=F("bl", 110), fill=GOLD, anchor="mm")
         d.text((M + 2 * r + 36, y + r), g["etiket"], font=F("b", 30), fill=INK, anchor="lm")
         return y + 2 * r
+    if t == "tablo":  # {"basliklar": [...4], "satirlar": [[...4]], "vurgu_sutun": 1}
+        cols = [gw - 3 * 170] + [170] * 3
+        xs = [M]
+        for c in cols:
+            xs.append(xs[-1] + c)
+        hh, rh = 66, 76
+        d.rectangle((M, y, W - M, y + hh), fill=INK)
+        for j, b in enumerate(g["basliklar"]):
+            f = F("xb", 25)
+            if j == 0:
+                d.text((xs[0] + 22, y + hh / 2), b, font=f, fill=GOLD, anchor="lm")
+            else:
+                d.text((xs[j] + cols[j] / 2, y + hh / 2), b, font=f, fill=GOLD, anchor="mm")
+        y += hh
+        vs = g.get("vurgu_sutun", 1)
+        for i, row in enumerate(g["satirlar"]):
+            d.rectangle((M, y, W - M, y + rh), fill=WHITE if i % 2 == 0 else CREAM)
+            for j, c in enumerate(row):
+                if j == 0:
+                    d.text((xs[0] + 22, y + rh / 2), c, font=F("sb", 27), fill=INK, anchor="lm")
+                else:
+                    d.text((xs[j] + cols[j] / 2, y + rh / 2), c, font=F("xb", 36), fill=GOLD_D if j == vs else INK, anchor="mm")
+            y += rh
+        d.line((M, y, W - M, y), fill=GOLD, width=4)
+        return y
+    if t == "kiyas":  # {"tavan": 5, "birim": "milyon TL", "satirlar": [[etiket, deger, vurgulu_mu], ...]}
+        bh, gap = 84, 54
+        for a, v, on in g["satirlar"]:
+            d.text((M, y), a, font=F("b", 27), fill=GOLD_D if on else GREY_D)
+            y += 42
+            lbl = f"{v:g} {g['birim']}"
+            w = max(d.textlength(lbl, font=F("xb", 34)) + 56, gw * v / g["tavan"])
+            d.rectangle((M, y, M + gw, y + bh), fill=WHITE, outline=LINE_L, width=2)
+            d.rectangle((M, y, M + w, y + bh), fill=GOLD if on else INK)
+            d.text((M + 28, y + bh / 2), lbl, font=F("xb", 34), fill=INK if on else GOLD, anchor="lm")
+            y += bh + gap
+        return y - gap
     if t == "kontrol":
         items = g["maddeler"]
         step = min(190, (ymax - y) / len(items))
