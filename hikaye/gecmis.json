@@ -188,5 +188,38 @@
       "18155731126544444",
       "18015347766006861"
     ]
+  },
+  {
+    "tarih": "2026-11-21",
+    "konu": "Endeksa/Emlakjet Ekim raporu: İstanbul'da yıllık konut fiyat artışı %27,5, ortalama satış fiyatı ~7,7 milyon TL; reel kaybı en az il İstanbul (%1,7)",
+    "kategori": "PİYASA NOTU",
+    "durum": "onerildi",
+    "kaynaklar": [
+      "https://www.haberaktuel.com/ortalama-konut-satis-fiyati-5-5-milyon-tl-oldu-3530634",
+      "https://www.ahaber.com.tr/galeri/ekonomi/ev-almak-isteyenleri-ilgilendiriyor-konutta-77-ay-sonra-bir-ilk-81-ilin-fiyat-listesi-belli-oldu"
+    ],
+    "permalink": null
+  },
+  {
+    "tarih": "2026-11-21",
+    "konu": "TOKİ 23-27 Kasım'da Arnavutköy Sazlıbosna'da 3.193 konutun yapım ihalesine çıkıyor (kura/hak sahipliği değil)",
+    "kategori": "SEKTÖR GÜNDEMİ",
+    "durum": "onerildi",
+    "kaynaklar": [
+      "https://www.emlakmanset.com/toki-yeni-haftada-ihaleye-cikiyor-arnavutkoyde-3-193-konut.html",
+      "https://www.toki.gov.tr (ihale takvimi, hazırlıkta doğrulanacak)"
+    ],
+    "permalink": null
+  },
+  {
+    "tarih": "2026-11-21",
+    "konu": "Tapuda Güvenli Ödeme Sistemi 1 Aralık'ta zorunlu: 10 gün kaldı (bugün yayınlanan bilgilendirme gönderisini hikâyede duyurma)",
+    "kategori": "SEKTÖR DUYURUSU",
+    "durum": "onerildi",
+    "kaynaklar": [
+      "https://www.sozcu.com.tr/tapu-sahipleri-icin-yeni-karar-1-aralik-tan-itibaren-zorunlu-olacak-p364087",
+      "https://www.karar.com/guncel-haberler/tapu-satislarinda-yeni-donem-1-aralikta-zorunlu-oluyor-2085008"
+    ],
+    "permalink": null
   }
 ]
