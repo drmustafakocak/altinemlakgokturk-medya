@@ -1,6 +1,19 @@
 {
-  "aciklama": "Cumartesi bilgilendirme serisinde işlenen konular (tekrar önleme). Öncesinde elle yapılan: Emlak vergisi 2. taksit (Kasım 2026).",
-  "konular": [
-    {"tarih": "2026-11 (elle)", "konu": "Emlak vergisi 2. taksit son ödeme 30 Kasım", "kategori": "Vergi/Finans", "format": "carousel", "permalink": null}
-  ]
+ "aciklama": "Cumartesi bilgilendirme serisinde işlenen konular (tekrar önleme). Öncesinde elle yapılan: Emlak vergisi 2. taksit (Kasım 2026).",
+ "konular": [
+  {
+   "tarih": "2026-11 (elle)",
+   "konu": "Emlak vergisi 2. taksit son ödeme 30 Kasım",
+   "kategori": "Vergi/Finans",
+   "format": "carousel",
+   "permalink": null
+  },
+  {
+   "tarih": "2026-11-21",
+   "konu": "Tapuda Güvenli Ödeme Sistemi 1 Aralık'ta zorunlu oluyor",
+   "kategori": "Hukuki",
+   "format": "carousel",
+   "permalink": "https://www.instagram.com/p/Df_pQgIFUwx/"
+  }
+ ]
 }
