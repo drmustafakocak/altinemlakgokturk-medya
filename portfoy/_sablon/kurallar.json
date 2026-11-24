@@ -12,5 +12,10 @@
    "net": 120,
    "not": "Kullanıcı: doğru konum Göktürk Merkez, net 120 m²; sitedeki Alibeyköy Merkez / 110 m² yanlış (16.11.2026)"
   }
- }
+ },
+ "oncelikli_bolgeler": [
+  "Göktürk",
+  "Kemerburgaz"
+ ],
+ "oncelikli_bolgeler_not": "Kullanıcı (23.11.2026): carousel sırasında önce Göktürk ve Kemerburgaz'daki portföyler, sonra diğerleri; grup içinde yeni önce, sonra no büyükten küçüğe."
 }

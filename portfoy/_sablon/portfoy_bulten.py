@@ -7,7 +7,7 @@ Girdi (bu dosyanın yanında): portfoy_veri.json, foto/, danisman/, logo/, fonts
 
 Her seri (satılık/kiralık) = kapak + en fazla 8 portföy + beyaz son kapak (en fazla 10 görsel).
 Seçim: önce hiç paylaşılmamış ilanlar (onceki_bulten.json "paylasilanlar" listesinde olmayanlar),
-8'e tamamlamak için daha önce paylaşılanlardan rastgele. Sıra: önce "yeni": true, sonra portföy no büyükten küçüğe.
+8'e tamamlamak için daha önce paylaşılanlardan rastgele. Sıra: önce kurallar.json oncelikli_bolgeler (Göktürk, Kemerburgaz), sonra "yeni": true, sonra portföy no büyükten küçüğe.
 """
 import json, os, sys, random, unicodedata
 from PIL import Image, ImageDraw, ImageFont, ImageStat, ImageChops
@@ -414,7 +414,15 @@ def sec(tum, paylasilanlar, tohum):
     if len(secilen) < ADET and eski:
         rnd = random.Random(tohum)
         secilen += rnd.sample(eski, min(len(eski), ADET - len(secilen)))
-    return sorted(secilen, key=sira)
+    return sorted(secilen, key=lambda p: (not oncelikli(p),) + sira(p))
+
+
+def oncelikli(p):
+    """kurallar.json oncelikli_bolgeler (ör. Göktürk, Kemerburgaz) mahalle/ilçede geçiyorsa carousel'de öne alınır."""
+    yol = os.path.join(KOK, "kurallar.json")
+    bolgeler = json.load(open(yol, encoding="utf-8")).get("oncelikli_bolgeler", []) if os.path.exists(yol) else []
+    yer = f"{p.get('mahalle') or ''} {p.get('ilce') or ''}".casefold()
+    return any(b.casefold() in yer for b in bolgeler)
 
 
 def main():
