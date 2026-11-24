@@ -1,7 +1,8 @@
 {
  "aciklama": "Kullanıcının istekleri — sitede olsa da bu kurallar uygulanır.",
  "haric_tutulan": {
-  "480448": "Zenginbahçe 2 kiralık dubleks — kullanıcı bültenden çıkarılmasını istedi (14.11.2026)"
+  "480448": "Zenginbahçe 2 kiralık dubleks — kullanıcı bültenden çıkarılmasını istedi (14.11.2026)",
+  "485695": "Prive Kemer 3+1 — Prive'deki portföyler bültene girmez (kullanıcı, 24.11.2026)"
  },
  "danisman_duzeltme": {
   "467387": "Arzu Yalçın"
@@ -17,5 +18,10 @@
   "Göktürk",
   "Kemerburgaz"
  ],
- "oncelikli_bolgeler_not": "Kullanıcı (23.11.2026): carousel sırasında önce Göktürk ve Kemerburgaz'daki portföyler, sonra diğerleri; grup içinde yeni önce, sonra no büyükten küçüğe."
+ "oncelikli_bolgeler_not": "Kullanıcı (24.11.2026): carousel'de önce Göktürk'teki portföyler, sonra diğerleri. Liste sırası öncelik sırasıdır (1. Göktürk, 2. Kemerburgaz — 23.11 kuralından, 3. diğerleri); grup içinde yeni önce, sonra no büyükten küçüğe.",
+ "haric_site_adlari": [
+  "Zenginbahçe 2",
+  "Prive"
+ ],
+ "haric_site_adlari_not": "Kullanıcı (24.11.2026): Zenginbahçe 2 ve Prive sitelerindeki portföyler bültene konmaz. İlan başlığında, og:title'da veya açıklamasında bu site adı geçen ilan portfoy_veri.json'a yazılmaz; script ayrıca baslik/ozellik/site alanında geçenleri eler. Emin olunamayan durumda onay mesajında sor."
 }
