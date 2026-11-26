@@ -1,0 +1,45 @@
+{
+  "cumartesi": "2026-11-28",
+  "hazirlanma": "2026-11-26 (Perşembe görevi)",
+  "oneriler": [
+    {
+      "sira": 1,
+      "baslik": "Site aidatında yeni yıl zammı: Yönetici tek başına ne kadar artırabilir?",
+      "kategori": "Mal sahibi–kiracı",
+      "neden_simdi": "22 Mayıs 2026'da yürürlüğe giren Kat Mülkiyeti Kanunu değişikliği, yöneticinin geçici işletme projesindeki zorunlu gider artışını yeniden değerleme oranıyla sınırladı; 2027 yeniden değerleme oranı 3 Kasım 2026'da %27,83 olarak açıklandı. Yılbaşı öncesi yeni işletme projeleri ve aidat artışları gündemde; Göktürk–Kemerburgaz site yoğun bir bölge.",
+      "format": "carousel",
+      "kaynaklar": [
+        "https://www.haberturk.com/aidat-duzenlemesi-yururlukte-3886482-ekonomi",
+        "https://www.ekonomist.com.tr/gundem/fahis-site-aidatlara-yasal-fren-3-ay-siniri-ve-yeniden-degerleme-sarti-getirildi-74829",
+        "https://www.cnbce.com/haberler/2027-yeniden-degerleme-orani-belli-oldu-vergi-harc-ve-cezalara-ne-kadar-zam-gelecek-h40886"
+      ],
+      "dogrulanacak": "Kanun sayısı ve Resmî Gazete metni; sınırın hangi yılın yeniden değerleme oranına bağlandığı (2027 için %27,83 uygulanıyor mu); kat malikleri kurulu kararıyla sınırın aşılabildiği. Cuma görevi resmî metinden teyit etmeli."
+    },
+    {
+      "sira": 2,
+      "baslik": "%27,83 yeniden değerleme oranı: 2027'de ev sahiplerini ilgilendiren eşikler",
+      "kategori": "Vergi/Finans",
+      "neden_simdi": "Oran 3 Kasım 2026'da açıklandı, yeni tutarlar 1 Ocak 2027'de geçerli olacak. Haberlere göre beklenen tutarlar: konut kira geliri istisnası 74.141 TL, gayrimenkul değer artış kazancı istisnası 191.745 TL; değerli konut vergisi alt sınırı da güncellenecek. Tutarlar henüz kesinleşmemiş hesaplamalar (resmî tebliğ beklenecek).",
+      "format": "carousel",
+      "kaynaklar": [
+        "https://www.cnbce.com/haberler/2027-kira-gelir-vergisi-istisnasi-ne-kadar-olacak-yeni-tutar-belli-oldu-h40907",
+        "https://www.ekonomist.com.tr/ekonomi-haberleri/2027-yili-yeniden-degerleme-orani-belli-oldu-iste-yeni-harc-vergi-ve-muafiyet-sinirlari-80488"
+      ],
+      "dogrulanacak": "GİB/Resmî Gazete tebliği yayımlandı mı; 2026 tutarları; kira istisnasının kapsamına dair son yasal değişiklikler; değerli konut vergisi 2027 sınırı (kaynakta 22.640.000 / 22.650.000 TL tutarsızlığı var)."
+    },
+    {
+      "sira": 3,
+      "baslik": "Ev satarken DASK artık alıcıya geçmiyor: Satıcıya prim iadesi, alıcıya yeni poliçe",
+      "kategori": "Teknik",
+      "neden_simdi": "Zorunlu Deprem Sigortası Genel Şartları değişikliğiyle (SEDDK) satışlarda poliçe devri sona erdi; haberlere göre 5 Eylül 2026'dan beri yürürlükte. Yıl sonu satış yoğunluğunda alıcı ve satıcının en sık atladığı adım.",
+      "format": "reels",
+      "kaynaklar": [
+        "https://www.cnbce.com/haberler/dask-police-devri-kaldirildi-mi-seddkdan-konut-satislarinda-dask-karari-g35521",
+        "https://uzmanpara.milliyet.com.tr/uzmanpara/konut-satislarinda-dask-policesinin-devredilmesi-son-buluyor-7654078",
+        "https://www.ekonomist.com.tr/emlak/ev-alacak-ve-satacaklar-dikkat-dask-ta-yeni-donem-basliyor-prim-iadesi-geliyor-78006"
+      ],
+      "dogrulanacak": "Resmî Gazete yayım tarihi (kaynaklarda net değil) ve kesin yürürlük tarihi; DASK/SEDDK resmî duyurusu."
+    }
+  ],
+  "elenenler": "Aralık kira artış oranı (TÜİK verisi 3 Aralık'ta, Cumartesi'den sonra açıklanacak); turizm amaçlı konut kiralama yönetmeliği 27.10.2026 değişikliği (dar kapsamlı); tapu güvenli ödeme ve emlak vergisi (son 8 haftada işlendi)."
+}
