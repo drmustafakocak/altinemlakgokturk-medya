@@ -1,0 +1,133 @@
+{
+  "yayin_tarihi": "2026-11-28",
+  "konu": "Site aidatında yeni yıl zammı: Yönetici tek başına ne kadar artırabilir?",
+  "kategori": "Mal sahibi–kiracı",
+  "format": "carousel",
+  "etiket": "SİTE AİDATI",
+  "seri": "BİLGİ NOTU",
+  "sayfalar": [
+    {
+      "tip": "kapak",
+      "ust": "Yeni yılda aidat",
+      "ust2": "kimin onayıyla artar?",
+      "buyuk": [
+        "%27,83"
+      ],
+      "alt": "2026 yeniden değerleme oranı açıklandı",
+      "aciklama": "Göktürk ve Kemerburgaz'daki site sakinleri ve ev sahipleri için aidat kurallarına dair 6 kısa bilgi."
+    },
+    {
+      "tip": "madde",
+      "no": "01",
+      "baslik": "Aidat artık kurul onayıyla belirleniyor",
+      "vurgu": "Ne değişti?",
+      "metin": "22 Mayıs 2026'da yürürlüğe giren kanun değişikliğiyle yöneticinin toplayacağı **avans (aidat) miktarının kat malikleri kurulunca onaylanması** zorunlu hâle geldi.",
+      "not": "Yönetici, işletme projesi onaylanana kadar avansın toplanmasından sorumlu.",
+      "grafik": {
+        "tip": "akis",
+        "adimlar": [
+          "Yönetici projeyi hazırlar",
+          "Kat malikleri kurulu görüşür",
+          "Onaylanan aidat uygulanır"
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "02",
+      "baslik": "Onaylı proje yoksa geçici proje",
+      "vurgu": "Bütçe onaylanmadıysa",
+      "metin": "Kurulca kabul edilmiş bir işletme projesi yoksa yönetici **gecikmeksizin geçici bir işletme projesi** hazırlayıp kat maliklerine bildirmek zorunda.",
+      "not": "Geçici proje, en geç 3 ay içinde aynen ya da değiştirilerek kabulü için genel kurulda karara bağlanmalı.",
+      "grafik": {
+        "tip": "buyuk",
+        "metin": "3",
+        "etiket": "ay içinde genel kurul kararı"
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "03",
+      "baslik": "Geçici dönemde artışa üst sınır",
+      "vurgu": "Ne kadar artabilir?",
+      "metin": "Mevcut bir işletme projesi varsa geçici projede belirlenen tutar, **bir önceki yıla ilişkin yeniden değerleme oranını** aşamıyor.",
+      "not": "2026 yılı yeniden değerleme oranı VUK Genel Tebliği (Sıra No: 599) ile %27,83 olarak açıklandı. Projenizde hangi yılın oranının esas alındığını yönetiminizden öğrenin.",
+      "grafik": {
+        "tip": "liste",
+        "maddeler": [
+          "2026 oranı: %27,83"
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "04",
+      "baslik": "Kurul kararında üst sınır yok",
+      "vurgu": "Karar genel kurulda verilirse",
+      "metin": "Kat malikleri genel kurulunda kararlaştırılan aidat artışlarına kanunda **bir üst sınır uygulanmıyor.** Son sözü toplantıya katılan malikler söylüyor.",
+      "not": "Bu nedenle toplantı çağrısını takip etmek ve projeyi önceden incelemek önem kazanıyor.",
+      "grafik": {
+        "tip": "akis",
+        "adimlar": [
+          "Çağrıyı takip edin",
+          "Projeyi inceleyin",
+          "Oyunuzu kullanın"
+        ]
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "05",
+      "baslik": "Sitelerde yönetim planı değişikliği kolaylaştı",
+      "vurgu": "Toplu yapılarda",
+      "metin": "Toplu yapılarda yönetim planını değiştirmek için gereken çoğunluk **5'te 4'ten 3'te 2'ye** indi.",
+      "not": "Tek bina (apartman) yönetim planlarında 5'te 4 kuralı sürüyor.",
+      "grafik": {
+        "tip": "buyuk",
+        "metin": "⅔",
+        "etiket": "Toplu yapılarda yeni çoğunluk"
+      }
+    },
+    {
+      "tip": "madde",
+      "no": "06",
+      "baslik": "Yeni yıl öncesi kontrol listesi",
+      "vurgu": "Ne yapmalısınız?",
+      "metin": "",
+      "grafik": {
+        "tip": "kontrol",
+        "maddeler": [
+          [
+            "İşletme projesini isteyin",
+            "Yeni aidat kurul onaylı mı, yoksa geçici proje mi?"
+          ],
+          [
+            "Artış oranını karşılaştırın",
+            "Geçici projede sınır, bir önceki yılın yeniden değerleme oranı."
+          ],
+          [
+            "Genel kurula katılın",
+            "Kurul kararlarında kanuni üst sınır yok."
+          ]
+        ]
+      }
+    },
+    {
+      "tip": "son",
+      "baslik": [
+        "Site seçerken aidatı da",
+        "birlikte değerlendirelim."
+      ],
+      "metin": "Göktürk ve Kemerburgaz'da ev alırken ya da kiralarken site yönetimi ve aidat düzenini de sizinle birlikte inceliyoruz.",
+      "kaynak": "Kaynak: Tapu Kanunu ile Bazı Kanunlarda ve 375 Sayılı KHK'de Değişiklik Yapılmasına Dair Kanun (RG 22.05.2026); VUK Genel Tebliği Sıra No: 599. Bilgilendirme amaçlıdır, hukuki danışmanlık yerine geçmez."
+    }
+  ],
+  "aciklama": "Yılbaşı yaklaşırken sitelerde yeni aidat tutarları konuşuluyor. Peki yönetici aidatı tek başına ne kadar artırabilir? 🏢\n\n22 Mayıs 2026'da yürürlüğe giren kanun değişikliğiyle aidatta son söz kat malikleri kurulunda. 2026 yılı yeniden değerleme oranı da %27,83 olarak açıklandı.\n\nBilmeniz gerekenler:\n• Yöneticinin toplayacağı avans (aidat) miktarı kat malikleri kurulunca onaylanmalı\n• Onaylı işletme projesi yoksa yönetici geçici proje hazırlar; bu proje en geç 3 ay içinde genel kurulda karara bağlanmalı\n• Mevcut proje varsa geçici projedeki tutar, bir önceki yıla ilişkin yeniden değerleme oranını aşamaz\n• Genel kurulda kararlaştırılan artışlarda kanuni üst sınır yok\n• Toplu yapılarda yönetim planı değişikliği için gereken çoğunluk 5'te 4'ten 3'te 2'ye indi\n\nGöktürk ve Kemerburgaz'da site seçerken aidat ve yönetim düzenini de birlikte değerlendirelim.\n\n📞 0532 464 75 19\n🌐 altinemlakgokturk.com\n\nKaynak: Tapu Kanunu ile Bazı Kanunlarda ve 375 Sayılı KHK'de Değişiklik Yapılmasına Dair Kanun (RG 22.05.2026); VUK Genel Tebliği Sıra No: 599. Bu paylaşım bilgilendirme amaçlıdır; hukuki danışmanlık yerine geçmez.\n\n#siteaidatı #katmülkiyeti #aidat #göktürk #kemerburgaz #eyüpsultan #altinemlakgokturk #altınemlak",
+  "kaynaklar": [
+    "https://www.trthaber.com/haber/ekonomi/5-soruda-fahis-site-aidati-duzenlemesi-neler-degisiyor-944458.html",
+    "https://www.milliyet.com.tr/ekonomi/keyfi-aidat-artisi-nasil-onlenecek-7584792",
+    "https://www.haberturk.com/iste-site-aidati-duzenlemesinin-tum-detaylari-3886984-ekonomi",
+    "https://www.ekonomist.com.tr/gundem/fahis-site-aidatlara-yasal-fren-3-ay-siniri-ve-yeniden-degerleme-sarti-getirildi-74829",
+    "https://www.muhasebetr.com/guncelmevzuat/mevzuat_oku.php?mevzuat_id=7263"
+  ]
+}
